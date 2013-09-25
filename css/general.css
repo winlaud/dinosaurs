@@ -36,3 +36,27 @@ body {
 nav li {
 	display:inline-block;
 }
+
+.intro {
+	font-style: italic;
+}
+
+.subintro {
+	font-size: 0.875 rem;
+	font-style: italic;
+}
+
+.bucket {
+	padding: 1em;
+	background-color: #ccc;
+	border-radius: 8px;
+	margin-bottom: 8px;
+}
+
+.bucket h3 {
+	margin: 0;
+}
+
+.bucket p {
+	margin: 0;
+}
