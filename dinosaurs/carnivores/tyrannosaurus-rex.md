@@ -4,7 +4,7 @@ size: 12 m
 discovery: 1905
 discoverer: Henry Fairfield Osborn
 period: Cretaceous
-thumb: tyrannosaurus-rex.jpg
+thumb: tyrannosaurus-rex.png
 description: The *Tyrannosaurus Rex* is one of the most recognizable and ferocious dinosaurs with a large head and small arms
 category: carnivore
 source: http://en.wikipedia.org/wiki/Tyrannosaurus

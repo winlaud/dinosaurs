@@ -10,9 +10,23 @@ layout: default
     <div class="bucket">
     	<h3>Herbivores</h3>
         <p>Herbivore means plant eater, short, flat teeth</p>
+        <ul>
+        {% for dino in site.pages %}
+            {% if dino.category == "herbivore"%}
+            <li>{{dino.name}}</li>
+            {% endif %}
+        {% endfor %}
+        </ul>
 	</div>
     
     <div class="bucket">
     	<h3>Carnivores</h3>
         <p>Carnivore means meat eater, long sharp teeth</p>
+       <ul>
+        {% for dino in site.pages %}
+            {% if dino.category == "carnivore"%}
+               <li>{{dino.name}}</li>
+            {% endif %}
+        {% endfor %}
+        </ul>
 	</div>
