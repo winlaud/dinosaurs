@@ -1,32 +1,26 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang=en-ca>
 <head>
-<meta charset="UTF-8">
-    <title>Dinosaurs</title>
-    <link href="css/general.css" rel="stylesheet">
-    <meta name="handheldfriendly" content="true">
-    <meta name="mobileoptimized" content="240">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset=utf-8>
+  <title>Dinosaurs</title>
+  <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/list-group.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
 </head>
-
 <body>
 
-	<header>
-		<h1>Dinosaurs</h1>
-        	<nav
-            	<ul class="nav">
-                	<li><a href="index.html">Home</a></li>
-                    <li><a href="#">Herbivores</a></li>
-                    <li><a href="carnivores.html">Carnivores</a></li>
-                </ul>
-            </nav>
-	</header>
-    
-    {{content}}
-    
-    <footer>
-    	<p>© 2013 Dinosaurs!</p>
-    </footer>
-    
+<header>
+  <nav>
+    <a href="{{site.baseurl}}/">Home</a>
+    <a href="{{site.baseurl}}/carnivores.html">Carnivores</a>
+    <a href="{{site.baseurl}}/herbivores.html">Herbivores</a>
+  </nav>
+</header>
+
+{{content}}
+
 </body>
 </html>
