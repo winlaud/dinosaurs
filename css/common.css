@@ -1,0 +1,24 @@
+html {
+	background-color: #e2e2e2;
+	font: normal 100%/1.4 Georgia,serif;
+}
+
+.ir {
+	overflow: hidden;
+
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+p {
+  margin: 0 0 1.4rem;
+}
+
+ul {
+  margin: 0 0 1.4rem;
+}
